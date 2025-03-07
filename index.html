@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./estilo.css">
+        <title>Veterinaria Los Perros del SENA</title>
+    </head>
+    <body>
+    
+        <header>
+            <h2>Centro Veterinario</h2>
+            <h1>Caninos y Felinos</h1> 
+            <img src="zarla-carevet-1x1-2400x2400-20210809-ctbb9btmp84tpccp4hdr.webp" alt="Imagen de un perro" style="height: 250px ;width: 250px;"  >
+            <div class="mydiv">
+                <nav>
+                    <a href="./servicios.html">Servicios</a><br>
+                    <a href="./productos.html">Productos</a><br>
+                    <a href="./guarderia.html">Guardería</a><br>
+                    <a href="./promociones.html">Promociones</a><br>
+                </nav>
+            </div>
+        </header>
+        
+        <section class="Articulos">
+            <article>
+                <h3>Cuidados y educación para su perro</h3>
+                <p>Es importante educar a su perro con técnicas positivas para garantizar una convivencia sana...
+                    <br><a href="./ver_mas.html">Ver más...</a><br>
+                    <img src="descubre-5-cosas-que-haran-feliz-gato_98.webp" alt="Perro en una maleta de viaje" style="height: 400px ;width: 600px;">
+                </p>
+                </article>
+            <article>
+                <h3>Salir de viaje con su mascota</h3>
+                <p>Viajar con su mascota puede ser una experiencia agradable
+                    si se toman en cuenta ciertos cuidados...
+                    <br><a href="./ver_mas.html">Ver más...</a><br>
+                    <img src="depositphotos_36019979-stock-photo-dog-walk.webp" alt="Perro feliz con correa" >
+            
+                </p>
+                </article>
+        </section>
+        
+        <section class="Formulario">
+            <form name="envio" action="envio.php" method="POST">
+                <h3>Solicitar cita médica</h3>
+                <label for="mascota">Mascota: </label><br>
+                <input type="text" name="mascota" id="mascota" placeholder="Ingrese Nombre"><br>
+                <label for="edad">Edad: </label><br>
+                <input type="number" name="edad" id="edad"><br>
+                <label for="raza">Raza: </label><br>
+                <input type="text" name="raza" id="raza"><br>
+                <label for="cita">Fecha: </label><br>
+                <input type="date" name="cita" id="cita"><br>
+                <label for="hora">Hora: </label><br>
+                <input type="time" name="hora" id="hora"><br>
+                <label for="dueno">Dueño: </label><br>
+                <input type="text" name="dueno" id="dueno" placeholder="Ingrese Nombre"><br>
+                <input type="submit" value="Solicitar cita">
+            </form>
+            
+
+            <div class="formulario-container"></div>
+            <div class="imagen-container">
+            <div class="slide"><img src="ciencia-veterinaria.jpg" alt="Imagen 1"></div>
+            <div class="slide"><img src="cdn-3.expansion.jpg" alt="Imagen 2"></div>
+            <div class="slide"><img src="ciencia-veterinaria.jpg" alt="Imagen 3"></div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Redes Sociales:
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            </p>
+        </footer>
+    </body>
+</html>
+
+

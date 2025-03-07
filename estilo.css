@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#123749;
+    color:#20dbd8;
+    padding: 20px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Arial',sans-serif;
+    background-color: #146a84;
+    color: #146a84;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+
+nav a{
+    color:#5edcda;
+    background-color:#146a84;
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+    display: block;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #20dbd8;
+}
+
+.Articulos{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h1 {
+    color: #20dbd8;
+    text-align: center;
+}
+  
+p {
+    font-family: verdana;
+    font-size: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+h3 {
+    font-size: 25px;
+    flex-wrap: wrap;
+    background-color:rgb(253, 234, 234);
+    border-radius: 10px;
+    margin: 6px;
+    padding: 3px;
+    text-align: center;
+    
+}
+
+header div nav ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0%;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.Formulario{
+    font-family: verdana;
+    font-size: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.Formulario {
+    display: flex;
+  }
+  
+  .imagen-container {
+    width: 800px; 
+    height: 200%; /* Ocupa toda la altura del contenedor principal */
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ajusta el número de columnas según tus imágenes */
+    grid-auto-flow: column;
+    animation: slide 10s infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    33.33% {
+      transform: translateX(20%);
+      opacity: 1;
+    }
+    66.66% {
+      transform: translateX(40%);
+      opacity: 0.4;
+    }
+    80% {
+      transform: translateX(60%);
+      opacity: 0.2;
+    }
+    90%{
+      transform:translateX(80%);
+      opacity: 0.1;
+    }
+  }
+  
+footer{
+    border-color: #090808;
+    background-color:#123749;
+    color: #146a84;
+}
+
+label{
+    font-family: verdana;
+}
+
+input{
+    font-family: verdana;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#Resultados{
+  background-color: #e00d0d;
+  margin: 20px;
+  color:white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+}
